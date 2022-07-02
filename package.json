@@ -4,7 +4,9 @@
   "description": "e2e UI and API task",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:ui-headless":"cypress run --headless --spec cypress/e2e/ui/advertisement/advertisement.cy.ts",
+    "cy:ui-headed":"cypress run --headed --spec cypress/e2e/ui/advertisement/advertisement.cy.ts"
   },
   "repository": {
     "type": "git",
