@@ -36,5 +36,6 @@
 //     }
 //   }
 // }
-import {createAdvertisement} from './commands/advertisement';
+import {createAdvertisement, editCreatedAdvertisement} from './commands/advertisement';
 Cypress.Commands.add('createAdvertisement', createAdvertisement);
+Cypress.Commands.add('editCreatedAdvertisement', editCreatedAdvertisement);
