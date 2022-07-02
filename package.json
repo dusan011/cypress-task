@@ -1,0 +1,27 @@
+{
+  "name": "cypress-task",
+  "version": "1.0.0",
+  "description": "e2e UI and API task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dusan011/cypress-task.git"
+  },
+  "keywords": [
+    "e2e",
+    "testing",
+    "cypress",
+    "api",
+    "ui",
+    "typescript"
+  ],
+  "author": "Dusan Petrovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dusan011/cypress-task/issues"
+  },
+  "homepage": "https://github.com/dusan011/cypress-task#readme"
+}
