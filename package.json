@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/dusan011/cypress-task/issues"
   },
-  "homepage": "https://github.com/dusan011/cypress-task#readme"
+  "homepage": "https://github.com/dusan011/cypress-task#readme",
+  "dependencies": {
+    "cypress": "^10.3.0",
+    "typescript": "^4.7.4"
+  }
 }
