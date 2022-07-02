@@ -1,0 +1,6 @@
+{
+    "name":"CYCreateName",
+    "street": "CYCreateStreet",
+    "rooms": "10",
+    "price":"99"
+}
