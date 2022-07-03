@@ -52,8 +52,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This is task for Senior QA Automation position. This project is created using Cypress and Typescript
 
 <p align="right">(<a href="#top">back to top</a>)</p>
