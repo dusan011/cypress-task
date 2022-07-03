@@ -3,11 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/dusan011/cypress-task">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Cypress Task</h3>
+  <h3 align="center">Senior QA Automation Engineer Task</h3>
 
   <p align="center">
     This is task for Senior QA Automation Engineer
@@ -108,12 +104,15 @@ For API tests, please refer [Documentation](https://github.com/dusan011/cypress-
 
 In order to run API tests, you can use custom script `npm run cy:api`
 Video:
+
+
 ![api_video_AdobeExpress](https://user-images.githubusercontent.com/53644461/177049676-0b00f823-aef3-4220-863c-93f3552aaeab.gif)
 
 
 For UI tests, please refer [Documentation](https://github.com/dusan011/cypress-task/tree/main/cypress/e2e/ui/advertisement)_
 
 In order to run UI tests, you can use custom script `npm run cy:ui-headless` - if you want to run it in headless mode  `npm run cy:ui-headed` - if you want to run it in headed(browser) mode
+
 Video:
 ![ui_test_AdobeExpress](https://user-images.githubusercontent.com/53644461/177050372-a48b050f-1951-44c2-a075-a03b523a4179.gif)
 
@@ -147,6 +146,5 @@ Linkedin: [https://www.linkedin.com/in/dusan-petrovic/](https://www.linkedin.com
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dusan-petrovic/
 [product-screenshot]: images/screenshot.png
-
 
 
