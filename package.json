@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:ui-headless":"cypress run --headless --spec cypress/e2e/ui/advertisement/advertisement.cy.ts",
     "cy:ui-headed":"cypress run --headed --spec cypress/e2e/ui/advertisement/advertisement.cy.ts",
-    "cy:api":"cypress run --headed --spec cypress/e2e/api/advertisement/advertisement.cy.ts"
+    "cy:api":"cypress run --headless --spec cypress/e2e/api/advertisement/advertisement.cy.ts"
   },
   "repository": {
     "type": "git",
