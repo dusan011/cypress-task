@@ -33,4 +33,29 @@ describe('API Create and Edit Advertisement', () => {
         }
     )
     });
+
+    it('should edit created advertisement', () => {
+        //short function is user to generate random uuid
+        let editName = "CYApiPut"+generatedUUID;
+        let editStreet = "CYApiPut"+generatedUUID;
+        let editRooms = "12";
+        let editPrice = "999";
+ 
+        cy.request({method:'PUT', url:apiEndPoint+generatedUUID, body:{name: editName,street: editStreet,rooms: editRooms, price: editPrice}}).then(
+         (response) => {
+             expect(response.status).to.eq(200);   
+            }
+        )
+        cy.request({method:'GET', url:apiEndPoint+generatedUUID}).then(
+            (response) => {
+                console.log(response.body);
+                expect(response.status).to.eq(200);
+                expect(response.body).to.have.property('_id', generatedUUID);
+                expect(response.body).to.have.property('name', editName);
+                expect(response.body).to.have.property('street', editStreet);
+                expect(response.body).to.have.property('rooms', editRooms);
+                expect(response.body).to.have.property('price', editPrice);                
+               }
+           )
+     });
  });
